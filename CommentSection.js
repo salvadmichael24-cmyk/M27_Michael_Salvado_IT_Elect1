@@ -4,7 +4,7 @@ import { View, Text, FlatList, TextInput, TouchableOpacity, StyleSheet } from "r
 export default function CommentSection() {
   const [comments, setComments] = useState([
     { id: "1", text: "Maayong gabie" },
-    { id: "2", text: "Wow palo" },
+    { id: "2", text: "Wow " },
   ]);
   const [newComment, setNewComment] = useState("");
 
