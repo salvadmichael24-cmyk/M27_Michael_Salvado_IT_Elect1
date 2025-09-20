@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Button, StyleSheet, Dimensions } from 'react-native';
 
 const ColorChangerApp = () => {
-  const [backgroundColor, setBackgroundColor] = useState('white');
+  const [backgroundColor, setBackgroundColor] = useState('Blue');
 
   const changeColor = (color) => {
     setBackgroundColor(color);
