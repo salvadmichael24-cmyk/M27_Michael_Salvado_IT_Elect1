@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Button, StyleSheet, Dimensions } from 'react-native';
 
 const ColorChangerApp = () => {
-  const [backgroundColor, setBackgroundColor] = useState('Blue');
+  const [backgroundColor, setBackgroundColor] = useState('white');
 
   const changeColor = (color) => {
     setBackgroundColor(color);
@@ -10,7 +10,7 @@ const ColorChangerApp = () => {
 
   return (
     <View style={[styles.container, { backgroundColor }]}>
-      <Button title="White" onPress={() => changeColor('white')} />
+      <Button title="Blue" onPress={() => changeColor('white')} />
       <Button title="Light Blue" onPress={() => changeColor('lightblue')} />
       <Button title="Light Green" onPress={() => changeColor('lightgreen')} />
     </View>
